@@ -13,3 +13,10 @@ function exercisePromise(age) {
     }
   });
 }
+
+async function pakaiAsync() {
+  const result = await exercisePromise(20);
+  console.log(result);
+}
+
+pakaiAsync();

@@ -13,3 +13,7 @@ function exercisePromise(age) {
     }
   });
 }
+
+exercisePromise(20)
+.then(hasil => console.log(hasil))
+.catch((err) => console.log(err));
